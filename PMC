@@ -1,0 +1,11 @@
+partyman-rewards/
+├── app/                 # Next.js frontend
+├── programs/
+│   └── partyman_rewards/ # Solana/Anchor program
+├── sdk/                 # Open-source TypeScript SDK
+├── tests/
+├── docs/
+├── Anchor.toml
+├── Cargo.toml
+├── package.json
+└── README.md
