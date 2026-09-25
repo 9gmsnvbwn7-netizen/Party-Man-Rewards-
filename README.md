@@ -1,4 +1,0 @@
-GlobalConfig
-UserRewards
-Merchant
-Campaign
