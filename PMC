@@ -9,3 +9,40 @@ partyman-rewards/
 ├── Cargo.toml
 ├── package.json
 └── README.md
+GlobalConfig
+UserRewards
+Merchant
+Campaign
+GlobalConfig
+     │
+     ├──── Merchant
+     │        │
+     │        └──── Campaign
+     │
+     └──── UserRewards
+                │
+                └── user's Solana wallet
+1. User opens PartyMan Rewards
+        ↓
+2. Connects Solana wallet
+        ↓
+3. App creates UserRewards PDA
+        ↓
+4. Merchant campaign exists
+        ↓
+5. User claims campaign
+        ↓
+6. Solana confirms transaction
+        ↓
+7. Dashboard shows:
+   "100 PMC earned"
+PartyMan Rewards ≠ investment platform
+
+PMC rewards are designed for application utility.
+
+PartyMan Rewards does not promise:
+• token appreciation
+• investment returns
+• dividends
+• company ownership
+• profit sharing
